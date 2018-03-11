@@ -13,11 +13,11 @@ $color-grey-5:rgba(10,10,10,1);
 $color-black:rgba(0,0,0,1);
 
 // Website
-$mycolor-1:rgba(162,139,119,1);
-$mycolor-2:rgba(80,69,57,1);
-$mycolor-3:rgba(193,173,121,1);
-$mycolor-4:rgba(147,131,86,1);
-$mycolor-5:rgba(155,59,29,1);
+$mycolor-1:rgb(254, 203, 55);
+$mycolor-2:rgb(0, 153,204);
+$mycolor-3:rgb(245, 245, 245);
+$mycolor-4:rgb(146, 193, 68);
+$mycolor-5:rgb(51, 51, 51);
 
 $body-bg: $color-white;
 $body-color: $color-grey-4;
@@ -43,7 +43,7 @@ $clientcolor-5:rgba(250,120,120,1);
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 // type
-$myfont-family-base: 'Raleway', serif;
+$myfont-family-base: 'Nunito Sans', sans-serif;
 $myfont-family-title: $myfont-family-base;
 
 // sizes
@@ -58,7 +58,7 @@ $font-weight-bold: 800;
 //------------------------------
 
 // type
-$clientfont-family-base: 'Raleway', serif;
+$clientfont-family-base: 'Nunito Sans', sans-serif;
 $clientfont-family-title: $myfont-family-base;
 
 // sizes

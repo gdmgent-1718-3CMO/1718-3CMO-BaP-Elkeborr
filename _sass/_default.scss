@@ -1,7 +1,7 @@
 // default-styling
 
 body {
-    font-family: $myfont-family-base;
+    font-family: 'Nunito Sans', sans-serif;;
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
@@ -10,14 +10,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $myfont-family-title;
-    font-weight: $font-weight-bold;
+    font-family: 'Khand', sans-serif;;
+    font-weight: $font-weight-light;
 }
 
 h1 {
-    font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #ffcc33 ;
 }
 h2 {
     font-weight: $font-weight-light;
@@ -25,8 +25,9 @@ h2 {
     margin: 2rem 0 1rem;
 }
 h3, h4, h5, h6 {
-    font-size: 1rem;
-    margin: 2rem 0 0;
+    font-size: 1.5rem;
+    margin: 2rem 0 0.5rem;
+    color:$mycolor-5;
 }
 a {
     text-decoration: none;
@@ -51,14 +52,14 @@ blockquote {
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {
   list-style: none;  
-  margin: 0 0 1em;
+  margin: 0 1rem 1em;
   padding: 0;
   li {
     padding-left: 25px;
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: $mycolor-4;
         margin-right: 18px;
     }    
   }
