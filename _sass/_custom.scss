@@ -29,6 +29,10 @@ margin-top: 10px;
   margin-bottom: 0%;
 }
 
+.dropdown-item.active {
+  background-color:$mycolor-4 ;
+}
+
 
 /* Algemeen ------------*/
 p{
@@ -43,13 +47,62 @@ padding: 20px;
 .container{
   width: 70%;
   max-width: 900px;
-  margin-right: auto;
-  margin-left: auto;
   position: relative;
   margin-bottom: 200px;
 }
 
+.afbeelding_logo{
+  width: 160px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  
+}
+.afbeelding_ruimte{
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+.afbeelding_min{
+  width: 100px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ruimte_lijst li{
+ text-indent: 0;
+}
+.dont{
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.afbeelding_voorbeeld{
+  width: 500px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.afbeelding_ruimtevb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.afbeelding_beeldmerk{
 
+width: 200px;;
+}
+
+.afbeelding_visitekaartje{
+  width: 310px;
+  margin-left:30px;
+}
+
+.afbeelding_desktop{
+  width: 250px;
+  margin-left: 10px;
+}
 /* Kleuren
 ------------------------------------------*/
 
