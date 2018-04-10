@@ -5,8 +5,9 @@ body {
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
-    background-color: $body-bg;
+    background-color: white;
     color: $body-color;
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,18 +17,18 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: $mycolor-1 ;
 }
 h2 {
     font-weight: $font-weight-light;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0 1rem;
 }
 h3{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 2rem 0 0.5rem;
-    color:$mycolor-5;
+    color:$color-grey-2;
 }
 h4{
     font-size: 1rem;

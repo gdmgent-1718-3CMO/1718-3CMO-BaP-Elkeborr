@@ -15,14 +15,26 @@
 
 - name: Kleur
   description: Kleur
-  folder: pages/kleur/
-  permalink: kleur/
+  #folder: pages/kleur/
+  permalink: /kleur
   # fa-icon: icon-info
 
 - name: Font
   description: Font
   folder: pages/font/
   permalink: font/
+  # fa-icon: icon-graduation-cap
+
+- name: Beelden en vormen
+  description: Beelden en vormen
+  folder: pages/beelden en vormen/
+  permalink: beelden en vormen/
+  # fa-icon: icon-graduation-cap
+
+- name: Toepassingen
+  description: Toepassingen
+  #folder: pages/toepassingen/
+  permalink: /toepassingen
   # fa-icon: icon-graduation-cap
 
 - name: Styleguide
