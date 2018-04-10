@@ -3,42 +3,39 @@
 */
 
 .navbar a {
-    border: none;
-    margin-top: 10px;
-    padding-bottom: 15px;
-    font-weight: 500;
+  border: none;
+margin-top: 10px;
+  font-size: 1.2rem;
+
 }
 .navbar a:hover{ 
-  color: black;
+  color:$mycolor-5;
   background-color: none;
-  $font-weight: 600;
+  font-weight: 700;
 }
+.nav-link{
+  color: $color-white !important; 
+
+    
+}
+
 .navbar a:active {
-  font-weight: 600;
-  background-color: $color-grey-1;
+  font-weight: 700;
+  background-color:$mycolor-1;
+  color: $mycolor-5;
 }
 .balk {
-  background-color:$mycolor-3;
+  background-color:$mycolor-1;
   margin-bottom: 0%;
 }
-.navbar{
-  background-color:$mycolor-3 !important;
-}
+
 
 /* Algemeen ------------*/
 p{
   padding-left: 30px;
 
 }
-.afbeeldingen {
-  overflow: auto;
-}
-.afbeeldingen img {
-  padding: 5px;
-  float: left;
-  width: 130px;
 
-}
 .voorbeeld_afbeelding img{
 width: 240px;
 padding: 20px;
@@ -49,6 +46,7 @@ padding: 20px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  margin-bottom: 200px;
 }
 
 
@@ -268,18 +266,31 @@ body {
 }
 
 footer {
-    background-color:$mycolor-5;
+    background-color:$mycolor-2;
     color: $color-white;
-    height: 50px;
-    padding: 10px;
-    a {
+    margin-top: 50px;
+
+    p {
         color: $color-white;
+        text-align: center;
         &:hover {
             
         }
     }
 }
-
+.midden {
+  display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.midden img{
+  width: 100px;
+  padding-left: 30px;
+}
 /* BACK TO TOP
 -------------------------
 */
@@ -301,7 +312,7 @@ footer {
   font-size: 18px; /* Increase font size */
   margin-bottom: 50px;
   &:hover {
-    background-color:$mycolor-2;
+    background-color:$mycolor-1;
     color: $color-white ; 
   }
 }
