@@ -20,7 +20,7 @@ margin-top: 10px;
 }
 
 .navbar a:active {
-  font-weight: 700;
+  font-weight: 800;
   background-color:$mycolor-1;
   color: $mycolor-5;
 }
@@ -32,6 +32,24 @@ margin-top: 10px;
 .dropdown-item.active {
   background-color:$mycolor-4 ;
 }
+
+button{
+  color: $mycolor-2;
+  background-color:transparent;
+  border: 1px solid $mycolor-2;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+button:hover{
+  font-weight: 400;
+  color:white;
+  background-color: $mycolor-2;
+  transition: ease 1s;
+
+}
+
 
 
 /* Algemeen ------------*/
@@ -83,12 +101,7 @@ padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
-.afbeelding_ruimtevb{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-}
+
 .afbeelding_beeldmerk{
 
 width: 200px;;
@@ -100,9 +113,18 @@ width: 200px;;
 }
 
 .afbeelding_desktop{
-  width: 250px;
+  width: 200px;
   margin-left: 10px;
 }
+
+.afbeelding_woordmerk{
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
 /* Kleuren
 ------------------------------------------*/
 
@@ -369,5 +391,11 @@ footer {
     color: $color-white ; 
   }
 }
+
+
+
+
+
+
 
 
