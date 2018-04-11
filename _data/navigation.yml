@@ -25,11 +25,18 @@
   permalink: font/
   # fa-icon: icon-graduation-cap
 
-- name: Beelden en vormen
-  description: Beelden en vormen
-  folder: pages/beelden en vormen/
-  permalink: beelden en vormen/
+- name: Beelden
+  description: Beelden
+  #folder: pages/toepassingen/
+  permalink: /beelden
   # fa-icon: icon-graduation-cap
+
+- name: Grafische elementen
+  description: Grafische elementen
+  #folder: pages/toepassingen/
+  permalink: /grafische elementen
+  # fa-icon: icon-graduation-cap
+
 
 - name: Toepassingen
   description: Toepassingen
